@@ -1,0 +1,4 @@
+Risk_ID,Risk_Description,Likelihood,Impact,Risk_Level,Mitigation,Owner,Last_Updated
+R001,Unauthorized access to internal systems,High,High,Critical,Implement MFA and logging,Security Team,2025-10-24
+R002,Data loss due to improper backups,Medium,High,High,Automate daily cloud backups,IT Ops,2025-10-24
+R003,Unpatched software vulnerabilities,High,Medium,High,Automated patching via WSUS,SysAdmin,2025-10-24
