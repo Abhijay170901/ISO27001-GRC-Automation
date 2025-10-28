@@ -1,0 +1,27 @@
+# AnnexA.yaml – ISO 27001:2022 Controls Summary
+controls:
+  - id: A.5.1
+    name: Information security policies
+    objective: Provide management direction for information security.
+    status: Implemented
+    owner: Compliance Team
+  - id: A.5.2
+    name: Review of the information security policies
+    objective: Ensure policies remain effective and aligned with organizational needs.
+    status: Planned
+    owner: Security Lead
+  - id: A.8.1
+    name: Operational procedures and responsibilities
+    objective: Ensure proper operations management of information processing facilities.
+    status: In Progress
+    owner: IT Operations
+  - id: A.9.2
+    name: User access management
+    objective: Ensure authorized user access and prevent unauthorized access.
+    status: Implemented
+    owner: IAM Admin
+  - id: A.12.4
+    name: Logging and monitoring
+    objective: Record events and generate evidence for analysis.
+    status: Planned
+    owner: SOC Team
