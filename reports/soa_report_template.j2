@@ -1,0 +1,17 @@
+ISO 27001:2022 Statement of Applicability (SoA)
+Generated on: {{ date }}
+
+Implemented Controls:
+{% for c in controls if c.status == 'Implemented' %}
+- {{ c.id }}: {{ c.name }} (Owner: {{ c.owner }})
+{% endfor %}
+
+Pending or Planned Controls:
+{% for c in controls if c.status != 'Implemented' %}
+- {{ c.id }}: {{ c.name }} — {{ c.status }} (Owner: {{ c.owner }})
+{% endfor %}
+
+Summary:
+Total Controls: {{ controls | length }}
+Implemented: {{ controls | selectattr('status', 'equalto', 'Implemented') | list | length }}
+Pending: {{ controls | rejectattr('status', 'equalto', 'Implemented') | list | length }}
