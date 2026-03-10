@@ -20,7 +20,7 @@ opencv-python-headless
 packaging
 pandas
 pillow
-protobuf
+protobuf==3.20.3
 psycopg2-binary
 pyarrow
 pydeck
@@ -33,7 +33,7 @@ requests
 rpds-py
 six
 smmap
-streamlit
+streamlit==1.32.2
 tenacity
 toml
 tornado
@@ -41,4 +41,3 @@ truffleHog
 truffleHogRegexes
 typing_extensions
 tzdata
-
